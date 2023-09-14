@@ -122,10 +122,6 @@ public class Main extends GraphicsProgram{
 		GRect button = new GRect(WINDOW_WIDTH/2-150,WINDOW_HEIGHT/2,300,50);
 		GLabel label = new GLabel("Press to start", WINDOW_WIDTH/2-40,WINDOW_HEIGHT/2-100);
 		while(notStarted) {
-			rgen = RandomGenerator.getInstance();
-			pause(300);
-			button.setColor(rgen.nextColor());
-			button.setFilled(true);
 			add(button);
 			add(label);
 		}
