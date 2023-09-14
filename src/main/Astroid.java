@@ -25,4 +25,13 @@ public class Astroid {
 	public void updateAstroid() {
 		body.move(0, vel);
 	}
+	public boolean remove(int x, int y) {
+		if(body.getX() < 0 || body.getX() > x) {
+			return true;
+		}
+		if(body.getY() < 0 || body.getY() > y) {
+			return true;
+		}
+		return false;
+	}
 }
