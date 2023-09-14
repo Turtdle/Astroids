@@ -1,6 +1,5 @@
 package main;
 import acm.graphics.*;
-import acm.graphics.*;
 import acm.program.*;
 import acm.util.*;
 public class Canon {
